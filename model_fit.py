@@ -17,7 +17,7 @@ y_train = train_data[:50, 0]
 x_test = test_data[:15, 1:]/255
 y_test =test_data[:15, 0] 
 
-x_train, x_validate, y_train, y_validate = train_test_split(x_train, y_train, test_size 0.2, random_state=12345)
+x_train, x_validate, y_train, y_validate = train_test_split(x_train, y_train, test_size=0.2, random_state=12345)
 image_rows = 28
 image_cols = 28
 batch_size = 512
