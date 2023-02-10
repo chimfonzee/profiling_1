@@ -1,5 +1,6 @@
 keras
-scikit-learn
-tensorflow
+line_profiler
 memory_profiler
 pandas
+scikit-learn
+tensorflow
